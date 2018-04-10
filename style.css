@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+	padding: 0px;
+	margin:0px;
+}
+body{
+	width:1100px;
+	margin:0 auto;
+	font-family: 'Roboto', sans-serif;
+	background: #f2f2f2;
+}
+a{
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+.clear{
+	clear: both;
+}
+header {
+	background: #6ecc15;
+	height:60px;
+	line-height:60px;
+}
+header div{
+	float: left;
+}
+header .header-logo{
+	width:300px;
+}
+header .header-logo p{
+	color:white;
+	font-size: 24px;
+}
+header .header-search{
+	width:700px;
+	position: relative;
+	margin-top:16px;
+	font-size: 16px;
+	display: inline-flex;
+}
+#iconsearch{
+}
+.box-search{
+	width:400px;
+	border: 1px solid #333;
+	outline: 0;
+	border-radius: 0.5em 0 0 0.5em;
+	font-size: inherit;
+	padding: 0.2em 0.5em;
+}
+.button{
+	outline: 0;
+	border: 1px solid #333;
+	border-left: 0;
+	font-size: inherit;
+	color:white;
+	background: #333;
+	border-radius: 0 0.5em 0.5em 0;
+	padding: 0 0.7em;
+	cursor: pointer;
+}
+
+header .header-card{
+	width:100px;
+}
+header .header-card a{
+	color:white;
+	font-size: 13px;
+	text-decoration: none;
+}
+.icon-basket{
+	color:white;
+	font-size: 24px;
+}
+nav{
+}
+nav ul{
+	margin-top:5px;
+	height:30px;
+	background: black;
+	padding:5px;
+	list-style: none;
+}
+nav ul li{
+	display: flex;
+	float: left;
+}
+nav ul li a{	
+	text-transform: uppercase;
+	font-size: 17px;
+	color:#dbdbdb;
+	padding:10px 30px;
+	margin-top:-5px;
+	display: block;
+}
+nav ul li .active-menu{
+	background: #6ecc15;
+}
+nav ul li a:hover{
+	background: #6ecc15;
+	color:#fff;
+}
+.banner-left{
+	padding:5px 5px 5px 0;
+	width:745px;
+	float:left;
+}
+.luachon{
+	list-style: none;
+	display: flex;
+}
+.luachon li{
+	float:left;
+	flex: 1;
+	text-align: center;
+	padding:10px;
+	cursor: pointer;
+	font-size: 14px;
+}
+.luachon .active{
+	border-bottom: 2px solid #6ecc15;
+}
+.banner-right{
+	padding-top:5px;
+	width:340px;
+	float:left;
+}
+.tintuc{
+	padding:10px 0px;
+	width:100%;
+}
+.tintuc span{
+	text-transform: uppercase;
+	color: #6ecc15;
+	font-weight: bold;
+}
+.tintuc a{
+	float: right;
+}
+.tintuc .tin{
+	width:350px;
+	height:40px;
+	padding: 10px 0;
+	border-bottom: 1px solid #dbdbdb;
+}
+.tintuc .tin img{
+	width:80px;
+	float:left;
+}
+.tintuc .tin a{
+	width:260px;
+	font-weight: 13px;
+	float:left;
+	color: black;
+	text-decoration: none;
+	padding-left:10px;
+}
+.sanpham{
+	width:1100px;
+	height:500px;
+}
+.sanpham-row{
+	width: 1100px;
+}
+.sanpham-col{
+	position: relative;
+	padding:5px;
+	margin:4px;
+	margin-bottom: 15px;
+	width: 31%;
+	float:left;
+	background: white;
+}
+.sanpham-col a{
+	color:black;
+	font-weight: bold;
+	font-size: 18px;
+}
+.sanpham-col p{
+	font-weight: bold;
+}
+.sanpham-chitiet{
+	font-size: 14px;
+	color:gray;
+	line-height: 2;
+	padding:10px;
+	float:left;
+}
+.sanpham-chitiet p{
+	font-weight: 400;
+}
+.sanpham-img{
+	width:150px;
+	height:150px;
+	overflow: hidden;
+	float:right;
+}
+.tragop{
+	position: absolute;
+	top:0;
+	right:0;
+	background: red;
+	color: white;
+	font-size: 13px;
+	margin:4px;
+	padding:4px 8px;
+	border-radius: 3px;
+}
+.khuyenmai{
+	text-align: center;
+	z-index: 11;
+	font-size: 11px;
+	background: #6ecc15;
+	color:#fff;
+	border-radius: 20px;
+}
+h2{
+	margin:20px 0;
+	font-weight: 400;
+}
+h2 a{
+	color:#444;
+}
+h2 a:hover{
+	color:black;
+}
+.muc{
+	height:60px;
+	background: #e5e5e5;
+}
+.muc-tukhoa ul li a{
+	float:left;
+	padding:0px 7px;
+	background: white;
+	color:#2e2e2e;
+	border-radius: 10px;
+	font-size: 13px;
+	line-height: 30px;
+	margin: 15px 5px;
+}
+.muc-tukhoa ul li a:hover{
+	background: black;
+	color:white;
+}
+.giatot-img{
+	width:100px;
+	height:120px;
+	overflow: hidden;
+}
+.giatot{
+
+}
+.giatot p{
+	color:#000;
+	font-size: 12px;
+	line-height: 1.5;
+}
+.giatot li{
+	padding: 5px;
+	margin:10px 20px;
+	width:100px;
+	float:left;
+}
+
+footer .lienhe{
+	background: #f2f2f2;
+}
+footer .lienhe-phone{
+	float:left;
+}
+footer .lienhe-thongtin{
+	height: 150px;
+	margin-bottom: 15px;
+	float:left;
+}
+.lienhe-thongtin ul {
+	float :left;
+	width: 200px;
+	font-size: 14px;
+	padding: 10px 0px 10px 10px ;
+	line-height: 2;
+}
+.lienhe-thongtin ul a{
+	color:#337ab7;
+}
+.lienhe-thongtin ul a:hover{
+	color:black;
+}
+
+.lienhe-phone{
+	padding:0 30px;
+}
+.lienhe-phone ul{
+	float:left;
+	font-size: 14px;
+}
+.lienhe-phone li{
+	padding: 10px;
+}
+.lienhe-phone li a{
+	font-size: 22px;
+	color: #6ecc15;
+	line-height: 35px;
+	font-weight: bold;
+}
+.lienhe-phone li p{
+	font-weight: 400;
+}
+footer .copyright{
+	font-size: 13px;
+	line-height: 30px;
+	background: #f2f2f2;
+	color: #6d6d6d;
+	padding: 10px 15px;
+}
